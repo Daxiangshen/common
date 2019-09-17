@@ -114,13 +114,13 @@
 
 	<distributionManagement>
 		<repository>
-			<id>maven-releases</id>
-			<url>http://139.199.29.250:8081/repository/maven-releases/</url>
+			<id>yuxiang-deploy-release</id>
+			<url>http://139.199.29.250:8081/repository/yuxiang-deploy-release/</url>
 		</repository>
 
 		<snapshotRepository>
-			<id>maven-snapshots</id>
-			<url>http://139.199.29.250:8081/repository/maven-snapshots/</url>
+			<id>yuxiang-deploy-snapshot</id>
+			<url>http://139.199.29.250:8081/repository/yuxiang-deploy-snapshot/</url>
 		</snapshotRepository>
 	</distributionManagement>
 
@@ -175,9 +175,9 @@
 
 	<repositories>
 		<repository>
-			<id>maven-public</id>
-			<name>maven-public</name>
-			<url>http://139.199.29.250:8081/repository/maven-public/</url>
+			<id>central</id>
+			<name>Central</name>
+			<url>http://139.199.29.250:8081/repository/owner-group/</url>
 			<snapshots>
 				<enabled>true</enabled>
 			</snapshots>
